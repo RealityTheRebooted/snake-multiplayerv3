@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Multiplayer Snake.io</title>
+  <style>
+    body,html {margin:0;padding:0;overflow:hidden;background:#111;color:#fff;}
+    #score {position:absolute;top:10px;left:10px;font-size:18px;z-index:1;}
+    #game {display:block;margin:0 auto;background:#222;}
+    #pname {position:absolute;top:10px;right:10px;font-size:18px;z-index:1;}
+  </style>
+</head>
+<body>
+  <div id="score"></div>
+  <div id="pname"><input id="nameInput" placeholder="Your name" /></div>
+  <canvas id="game" width="900" height="600"></canvas>
+  <script src="client.js"></script>
+</body>
+</html>
